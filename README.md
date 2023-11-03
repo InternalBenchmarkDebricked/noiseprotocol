@@ -148,4 +148,3 @@ Contact the author: plizonczyk.public [at] gmail.com
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
