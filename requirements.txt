@@ -2,7 +2,7 @@ amqp
 attrs==21.4.0
 jinja2>=2.10.3
 protobuf==3.19.4
-protobug3-to-dict==0.1.5
+protobuf3-to-dict==0.1.5
 python-qpid-proton==0.38
 pyscopg2-binary
 Pygments
