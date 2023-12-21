@@ -1,4 +1,4 @@
-amqp
+amqpfxfxfxfxfxfxfxf
 attrs==21.4.0
 certifi==2021.10.8
 jinja2>=2.10.3
