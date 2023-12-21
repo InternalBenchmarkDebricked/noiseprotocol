@@ -38,7 +38,12 @@ jobs:
       # - Generate callgraphs
       # - Filter out different paths to be scanned or not scanned with glob patterns
       # - Run resolution, callgraph generation, etc, in separate steps in more complex builds. 
-      
+
+      - name: Resolve
+        run: |
+          ./debricked resolve
+        env:
+          DEBRICKED_TOKEN: ${{ secrets.DEBRICKED_TOKEN }}
       # The base "debricked scan" does all this with sane default values.
       - name: Run Scan
         run: |
